@@ -1,0 +1,223 @@
+﻿/* 
+    Author: Shabir Gilkar
+    Email:shabirgilkar@gmail.com
+    License: MIT License
+*/
+
+
+*{Padding:0px; margin:0px;}
+
+@font-face
+{
+    src: url(../fonts/segoeui.eot);
+    font-family: SegoeUI;
+}
+@font-face
+{
+    src: url(../fonts/segoeui.ttf);
+    font-family: SegoeUI;
+}
+
+body, html
+{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    font-family:'Segoe UI', 'Arial', 'Sans-Serif';
+    font-size: 12px;
+    color: #323232;
+}
+
+a{text-decoration:none;}
+
+.clear{clear:both;}
+
+.mainWrapper
+{   
+    width: 1004px;   
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+   
+}
+
+.boxShadow
+{
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    -0-box-shadow: 1px 1px 2px rgba(0,0,0,0.4);    
+}
+
+.insetBoxShadow
+{
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4) inset;
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.4) inset;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.4) inset;
+    -0-box-shadow: 1px 1px 2px rgba(0,0,0,0.4) inset;    
+}
+
+.borderRadius
+{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;    
+}
+
+/*------ Main Nav starts -------*/
+
+ .mainNav
+{
+    height: 40px;
+    border: solid 1px #a6a6a6;
+	background: #a6a6a6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#d3d3d3), to(#f7f7f7));
+	background: -moz-linear-gradient(top,  #d3d3d3,  #f7f7f7);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3d3d3', endColorstr='#f7f7f7');
+    margin: 40px 15px;
+}
+
+.mainNav ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainNav ul li
+{
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+}
+
+.mainNav ul li.nav
+{
+    font-family: SegoeUI;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    line-height:40px;
+    padding: 0 20px;
+    border-right:1px solid #d3d3d3;
+}
+
+.mainNav ul li.nav:hover
+{
+    background: rgba(8,102,198,0.8);
+    border-right:1px solid rgba(6,80,155,1);     
+    cursor:pointer;
+    color:#fff !Important;
+}
+
+.mainNav ul li.nav span
+{
+    cursor:pointer;
+}
+
+.mainNav ul li.nav .dropdown
+{
+    display:none;
+}
+
+.mainNav ul li.nav:hover .dropdown,
+.mainNav ul li.nav:hover .dropdown:focus
+{
+    position:absolute;
+    display: block;
+    background: rgba(8,102,198,0.8);
+    height:auto;
+    max-width:150px;    
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    margin:0 0 0 -20px;
+       
+}
+
+.mainNav ul li.nav:hover .dropdown ul
+{    
+    list-style: none;
+    padding: 0px;
+    margin:0;
+    overflow:hidden;
+}
+
+.mainNav ul li.nav:hover .dropdown ul li
+{ 
+    width:100%;
+    padding:0px;
+    margin: 0px; 
+}
+
+.mainNav ul li.nav:hover .dropdown ul li a.subNav
+{
+    display:inline-block;
+    min-width:100%;
+    font-family: SegoeUI;
+    color: #fff;
+    font-size: 12px;
+    padding:0 0 0 25px;
+    line-height:30px;
+    text-transform:none;
+    border-bottom:1px dotted rgba(68,208,254,0.8); 
+}
+
+.mainNav ul li.nav:hover .dropdown ul li a.subNav:hover
+{
+    background-color: rgba(6,80,155, 0.4);
+}
+
+
+/*------- Menu icons starts-----------*/
+
+li.file
+{    
+    background:url(../Images/Icons/1.png) no-repeat 4px center;    
+}
+
+li.chart
+{    
+    background:url(../Images/Icons/11.png) no-repeat 4px center;    
+}
+
+li.home
+{    
+    background:url(../Images/Icons/17.png) no-repeat 4px center;    
+}
+
+li.meeting
+{    
+    background:url(../Images/Icons/18.png) no-repeat 4px center;    
+}
+
+li.stickynote
+{    
+    background:url(../Images/Icons/26.png) no-repeat 4px center;    
+}
+
+li.save
+{    
+    background:url(../Images/Icons/22.png) no-repeat 4px center;    
+}
+
+li.briefcase
+{    
+    background:url(../Images/Icons/27.png) no-repeat 4px center;    
+}
+
+
+li.print
+{    
+    background:url(../Images/Icons/16.png) no-repeat 4px center;    
+}
+
+
+/*------- Menu icons ends-----------*/
+
+/*------ Main Nav Ends -------*/
